@@ -10,6 +10,7 @@ namespace Item_Store_MVVM.Model
 
             var item = new DataItem("Welcome to MVVM Light");
             callback(item, null);
+            //Testing
         }
     }
 }
