@@ -11,6 +11,9 @@ namespace Item_Store_MVVM
         static App()
         {
             DispatcherHelper.Initialize();
+            //Shows the configuration window on start up
+            Window.Configuration configurationWindow = new Window.Configuration();
+            configurationWindow.Show();
         }
     }
 }
